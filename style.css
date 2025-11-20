@@ -1,0 +1,44 @@
+header{
+    position:absolute;
+    color: white;
+    font-weight: bolder;
+    font-family: "Chewy", cursive;
+    font-size: 120px;
+    text-align: center;
+    background-color: green;
+    padding: 5px;
+    margin: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    width: 80%;
+}
+
+footer{
+    color: white;
+    font-size: larger;
+    background-color: green;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    width: 100%;
+
+}
+
+body{
+    background-image: url('Evening_sky.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.tree{
+    width: 700px;  /* change size */
+    bottom: 0;    /* stick to ground */
+    left: 60%;
+     /* center it */
+    z-index: 5;  /* make sure it’s above background */
+}
